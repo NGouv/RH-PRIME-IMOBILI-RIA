@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RH Prime | Negócios Imobiliários</title>
+    <meta
+      name="description"
+      content="RH Prime Negócios Imobiliários em Caldas Novas – GO. Encontre oportunidades para comprar, vender, alugar ou construir sua casa."
+    />
+    <meta
+      property="og:title"
+      content="RH Prime | Negócios Imobiliários"
+    />
+    <meta
+      property="og:description"
+      content="Especialistas em compra, venda, locação e construção de casas em Caldas Novas – GO."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/hero.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="RH Prime home">
+          <img src="assets/logo-trans.png" alt="RH Prime logo" />
+        </a>
+
+        <nav class="main-nav" aria-label="Menu principal">
+          <a href="#inicio">Início</a>
+          <a href="#imoveis">Imóveis</a>
+          <a href="#construcao">Construção</a>
+          <a href="#sobre">Sobre nós</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a
+            class="btn btn-outline"
+            href="https://wa.me/5564999674797?text=Ol%C3%A1!%20Conheci%20o%20site%20da%20RH%20Prime%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os."
+            target="_blank"
+            rel="noreferrer"
+            >Fale conosco</a
+          >
+          <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">RH PRIME | NEGÓCIOS IMOBILIÁRIOS</p>
+            <h1>Seu próximo capítulo começa com o imóvel certo.</h1>
+            <p class="hero-subtitle">
+              Encontre oportunidades para comprar, vender ou alugar e conheça nossas soluções para construir sua casa em Caldas Novas.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#imoveis">Explorar imóveis</a>
+              <a class="btn btn-secondary" href="#construcao">Construir minha casa</a>
+            </div>
+            <div class="location-badge">Caldas Novas — Goiás</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="construcao" class="construction">
+        <div class="container compact-layout">
+          <div class="section-intro">
+            <p class="eyebrow">Construção</p>
+            <h2>Seu projeto de casa começa com uma boa orientação.</h2>
+            <p>
+              Conheça nossas soluções de construção de casas financiadas e descubra possibilidades para transformar seu projeto em realidade.
+            </p>
+            <a
+              class="btn btn-primary"
+              href="https://wa.me/5564999674797?text=Ol%C3%A1!%20Conheci%20o%20site%20da%20RH%20Prime%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20constru%C3%A7%C3%A3o%20de%20casas%20financiadas."
+              target="_blank"
+              rel="noreferrer"
+              >Quero construir minha casa</a
+            >
+          </div>
+
+          <div class="steps-grid" aria-label="Etapas de construção">
+            <article class="step-card">
+              <span class="step-number">01</span>
+              <h3>Converse com nossa equipe.</h3>
+            </article>
+            <article class="step-card">
+              <span class="step-number">02</span>
+              <h3>Conheça as possibilidades para seu projeto.</h3>
+            </article>
+            <article class="step-card">
+              <span class="step-number">03</span>
+              <h3>Planeje a construção da sua casa.</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="imoveis" class="catalog-section">
+        <div class="container">
+          <div class="section-header centered">
+            <p class="eyebrow">Imóveis</p>
+            <h2>Encontre seu próximo imóvel.</h2>
+            <p>Explore oportunidades para diferentes necessidades e momentos da vida.</p>
+          </div>
+
+          <div class="catalog-toolbar">
+            <div class="filter-group" aria-label="Filtros de imóveis">
+              <button class="filter-btn active" type="button" data-filter="todos">Todos</button>
+              <button class="filter-btn" type="button" data-filter="comprar">Comprar</button>
+              <button class="filter-btn" type="button" data-filter="alugar">Alugar</button>
+              <button class="filter-btn" type="button" data-filter="casas">Casas</button>
+              <button class="filter-btn" type="button" data-filter="apartamentos">Apartamentos</button>
+            </div>
+
+            <label class="search-box" aria-label="Pesquisar imóvel">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.9 12.8l4.4 4.4 1.4-1.4-4.4-4.4A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
+              <input id="propertySearch" type="search" placeholder="Pesquisar por nome ou localização" />
+            </label>
+          </div>
+
+          <div class="catalog-note">Conteúdo demonstrativo — imóveis fictícios</div>
+          <div id="propertyGrid" class="property-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="announce-section">
+        <div class="container announce-box">
+          <div>
+            <p class="eyebrow">Anuncie seu imóvel</p>
+            <h2>Tem um imóvel para vender ou alugar?</h2>
+          </div>
+          <p>
+            A RH Prime pode ajudar você a apresentar seu imóvel e encontrar pessoas interessadas.
+          </p>
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/5564999674797?text=Ol%C3%A1!%20Tenho%20um%20im%C3%B3vel%20e%20gostaria%20de%20conversar%20sobre%20a%20possibilidade%20de%20anunciar%20com%20a%20RH%20Prime."
+            target="_blank"
+            rel="noreferrer"
+            >Quero anunciar meu imóvel</a
+          >
+        </div>
+      </section>
+
+      <section id="sobre" class="about-section">
+        <div class="container about-layout">
+          <div class="about-copy">
+            <p class="eyebrow">Sobre nós</p>
+            <h2>RH Prime | Negócios Imobiliários</h2>
+            <p>
+              A RH Prime atua em Caldas Novas – GO, oferecendo soluções para quem deseja comprar, vender ou alugar um imóvel, além de oportunidades para quem deseja construir sua própria casa.
+            </p>
+            <p>
+              Nosso objetivo é proporcionar um atendimento próximo e transparente, acompanhando cada cliente na busca pela melhor solução para seus planos.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta" id="contato">
+        <div class="container final-cta-box">
+          <div>
+            <p class="eyebrow">Contato</p>
+            <h2>Vamos conversar sobre seu próximo projeto?</h2>
+          </div>
+          <p>
+            Seja para encontrar um imóvel, anunciar sua propriedade ou construir sua casa, estamos à disposição.
+          </p>
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/5564999674797?text=Ol%C3%A1!%20Conheci%20o%20site%20da%20RH%20Prime%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os."
+            target="_blank"
+            rel="noreferrer"
+            >Falar com a RH Prime</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo-trans.png" alt="RH Prime logo" />
+          <p>RH Prime | Negócios Imobiliários</p>
+          <p>Caldas Novas – GO</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Navegação</h3>
+          <a href="#inicio">Início</a>
+          <a href="#imoveis">Imóveis</a>
+          <a href="#construcao">Construção</a>
+          <a href="#sobre">Sobre nós</a>
+        </div>
+
+        <div class="footer-links">
+          <h3>Contato</h3>
+          <a href="https://www.instagram.com/rhprime_imobiliaria/" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://wa.me/5564999674797" target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>Realizando sonhos, construindo histórias.</p>
+      </div>
+    </footer>
+  </body>
+</html>
